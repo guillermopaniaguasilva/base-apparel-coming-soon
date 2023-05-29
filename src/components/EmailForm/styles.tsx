@@ -37,6 +37,11 @@ export const Input = styled.input<InputProps>`
     font-weight: 400;
     line-height: 28px;
   }
+
+  @media only screen and (min-width: 600px) {
+    width: 190%;
+    height: 56px;
+  }
 `;
 
 export const SubmitIcon = styled.img``;
@@ -50,6 +55,12 @@ export const SubmitButton = styled.button`
   position: absolute;
   top: 32px;
   left: 290px;
+
+  @media only screen and (min-width: 600px) {
+    width: 100px;
+    height: 56px;
+    left: 291px;
+  }
 `;
 
 export const ErrorIcon = styled.img`
@@ -58,6 +69,10 @@ export const ErrorIcon = styled.img`
   position: absolute;
   top: 43px;
   left: 255px;
+
+  @media only screen and (min-width: 600px) {
+    top: 48px;
+  }
 `;
 
 export const ErrorMessage = styled.p`
@@ -67,4 +82,8 @@ export const ErrorMessage = styled.p`
   line-height: 13px;
   margin-left: 24px;
   margin-top: 8px;
+
+  @media only screen and (min-width: 600px) {
+    margin-top: 16px;
+  }
 `;
